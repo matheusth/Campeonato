@@ -1,7 +1,7 @@
 from Time.Time import Time
 import datetime
 import random
-class Championship:
+class Campeonato:
     def __init__(self,name,year):
         self.name = name
         self.year = year

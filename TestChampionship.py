@@ -1,6 +1,6 @@
-from Campeonato import Championship
+from Campeonato import Campeonato
 from Time.Time import Time
-champ = Championship("NBA",1990)
+champ = Campeonato("NBA", 1990)
 
 champ.addTeams(Time("Teste1", 1991, "Basquete"))
 champ.addTeams(Time("Teste2", 1992, "Basquete"))
